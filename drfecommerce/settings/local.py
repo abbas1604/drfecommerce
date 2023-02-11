@@ -2,7 +2,10 @@ from .base import *
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'drfecommerce',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': '1604'
     }
 }

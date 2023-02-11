@@ -1,4 +1,4 @@
-venv/
+../../Desktop/relate to android/drfecommerce/venv/
 .pytest_cache
 **__pycache__/
 db.sqlite3
